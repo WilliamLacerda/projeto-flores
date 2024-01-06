@@ -150,10 +150,10 @@ p {
 }
 
 div {
-    max-width: 1300px;
+    max-width: 1100px;
     min-width: 300px;
     height: 1200px;
-    background-size: 80vh;
+    background-size: 75vh;
     background-repeat: no-repeat;
     background-position: bottom,center;
 }
