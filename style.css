@@ -1,0 +1,361 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+
+:root {
+    --vermelhopastel: #ff534ae7;
+    --vermelho0: #c05b5eb3;
+    --vermelho1: #C05B5E;
+    --vermelho2: #EE6367;
+    --vermelho3: #AA3033;
+    --vermelho4: #881215;
+
+    --amarelopastel:#fdfd96;
+    --amarelo0: #f0e2648d;
+    --amarelo1: #F0E264;
+    --amarelo2: #C1B75B;
+    --amarelo3: #AA9901;
+    --amarelo4: #897D12;
+
+    --azulpastel: #5fa5fbfd;
+    --azul0: #5359a693;
+    --azul1: #5359A6;
+    --azul2: #494D86;
+    --azul3: #111876;
+    --azul4: #181D5F;
+
+    --verdepastel: #77dd77;
+    --verde0: #98de8587;
+    --verde1: #98DE85;
+    --verde2: #6CC355;
+    --verde3: #328E1A;
+    --verde4: #1A6C04;
+
+    --font1: 'Whisper', cursive;
+    --font2: 'Sevillana', cursive;
+    --font3: 'Shadows Into Light', cursive;
+    --font4: 'Great Vibes', cursive;
+    --font5: 'Monoton', sans-serif;
+    --font6: 'Leckerli One', cursive;
+    --font7: 'Fredericka the Great', serif;
+    --font8: 'Rubik Moonrocks', sans-serif;
+    --font9: 'Rye', serif;
+    --font10: 'Pattaya', sans-serif;
+    --font11: 'Yesteryear', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    background-image: url("imagens/pexels-magda-ehlers-4239914.jpg");
+
+}
+main {
+    max-width: 1200px;
+    min-width: 300px;
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.800);
+    padding: 50px;
+    background-image: url(imagens/pexels-karolina-grabowska-4195587.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header > h1 {
+    color: lightcoral;
+    font-family: var(--font7);
+    text-align: center;
+    font-size: 40px;
+}
+
+section {
+    background-attachment: scroll;
+}
+
+section.verde {
+    background-color: var(--verde1);
+}
+
+section.amarelo {
+    background-color: var(--amarelo1);
+}
+
+section.vermelho {
+    background-color: var(--vermelho4);
+}
+
+section.azul {
+    background-color: var(--azul4);
+}
+
+h1 {
+    font-size: 34px;
+    font-family: var(--font6);
+    text-indent: 15px;
+    margin-left: 10px;
+    font-weight: lighter;
+    padding: 5px;
+    color: white;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: var(--font9);
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.600);
+}
+
+p {
+    font-size: 24px;
+    line-height: 1,5em;
+    text-indent: 10px;
+    font-family: var(--font10);
+    padding: 10px;
+    font-weight: lighter;
+    text-align: justify;
+    color: white;
+}
+
+div {
+    max-width: 1200px;
+    min-width: 300px;
+    height: 1000px;
+    background-size: 80vh;
+    background-repeat: no-repeat;
+    background-position: bottom,center;
+}
+
+div > p {
+    font-family: var(--font4);
+    background-color: rgba(0, 0, 0, 0.600);
+    font-size: 24px;
+}
+
+strong.verde {
+    color: var(--verde3);
+}
+
+strong.amarelo {
+    color: var(--amarelopastel);
+}
+
+strong.vermelho {
+    color: var(--vermelhopastel);
+}
+
+strong.azul {
+    color: var(--azul2);
+}
+
+a.verde {
+    color: var(--verdepastel);
+    text-decoration: none;
+}
+
+a.verde:hover {
+    color: var(--verde4);
+    text-decoration: underline;
+}
+
+a.amarelo {
+    color: var(--amarelo2);
+    text-decoration: none;
+}
+
+a.amarelo:hover {
+    color: var(--amarelo4);
+    text-decoration: underline;
+}
+
+a.vermelho {
+    color: var(--vermelho2);
+    text-decoration: none;
+}
+
+a.vermelho:hover {
+    color: var(--vermelho3);
+    text-decoration: underline;
+}
+
+a.azul {
+    color: var(--azul0);
+    text-decoration: none;
+}
+
+a.azul:hover {
+    color: var(--azul2);
+    text-decoration: underline;
+}
+
+div.flor1 {
+    background-image: url("ImagensDasFlores/flor-de-lotús.jpg");
+    background-attachment: fixed;
+}
+
+div.flor2 {
+    background-image: url("ImagensDasFlores/flor-do-lupúlo.jpg");
+    background-attachment: fixed;
+}
+
+div.flor3 {
+    background-image: url("ImagensDasFlores/crisantemo-verde.jpg");
+    background-attachment: fixed;
+}
+
+div.flor4 {
+    background-image: url("ImagensDasFlores/gladiolo-verde.jpg");
+    background-attachment: fixed;
+}
+
+div.flor5 {
+    background-image: url("ImagensDasFlores/sino-de-irlanda.jpeg");
+    background-attachment: fixed;
+}
+
+div.flor6 {
+    background-image: url("ImagensDasFlores/madressilva-amarela.jpg");
+    background-attachment: fixed;
+}
+
+div.flor7 {
+    background-image: url("ImagensDasFlores/jasmin-carolina.jpg");
+    background-attachment: fixed;
+}
+
+div.flor8 {
+    background-image: url("ImagensDasFlores/fresia-amarela.jpg");
+    background-attachment: fixed;
+}
+
+div.flor9 {
+    background-image: url("ImagensDasFlores/gerbera-amarela.jpg");
+    background-attachment: fixed;
+}
+
+div.flor10 {
+    background-image: url("ImagensDasFlores/zinia-amarela.jpg");
+    background-attachment: fixed;
+}
+
+div.flor11 {
+    background-image: url("ImagensDasFlores/ixora-chinesa.jpeg");
+    background-attachment: fixed;
+}
+
+div.flor12 {
+    background-image: url("ImagensDasFlores/anturio.jpg");
+    background-attachment: fixed;
+}
+
+div.flor13 {
+    background-image: url("ImagensDasFlores/azaleia.jpg");
+    background-attachment: fixed;
+}
+
+div.flor14 {
+    background-image: url("ImagensDasFlores/begonia-vermelha.jpg");
+    background-attachment: fixed;
+}
+
+div.flor15 {
+    background-image: url("ImagensDasFlores/peonia-vermelha.jpg");
+    background-attachment: fixed;
+}
+
+div.flor16 {
+    background-image: url("ImagensDasFlores/hortensia-azul.jpg");
+    background-attachment: fixed;
+}
+
+div.flor17 {
+    background-image: url("ImagensDasFlores/delfino-azul.jpg");
+    background-attachment: fixed;
+}
+
+div.flor18 {
+    background-image: url("ImagensDasFlores/miosotis.jpg");
+    background-attachment: fixed;
+}
+
+div.flor19 {
+    background-image: url("ImagensDasFlores/lobelia-azul.jpg");
+    background-attachment: fixed;
+}
+
+div.flor20 {
+    background-image: url("ImagensDasFlores/iris-azul.jpg");
+    background-attachment: fixed;
+}
+
+div#container{
+    overflow: auto;
+}
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+tfoot {
+    background-color: black;
+    color: white;
+}
+
+tr.azul {
+    background-color: var(--azulpastel);
+}
+
+tr.amarelo {
+    background-color: var(--amarelopastel);
+}
+
+tr.verde {
+    background-color: var(--verdepastel);
+}
+
+tr.vermelho {
+    background-color: var(--vermelhopastel);
+}
