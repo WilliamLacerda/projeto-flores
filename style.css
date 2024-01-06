@@ -77,7 +77,7 @@ body {
 
 }
 main {
-    max-width: 1100px;
+    max-width: 1000px;
     min-width: 300px;
     background-color: black;
     margin: auto;
@@ -150,10 +150,10 @@ p {
 }
 
 div {
-    max-width: 1100px;
+    max-width: 1000px;
     min-width: 300px;
     height: 1200px;
-    background-size: 75vh;
+    background-size: 70vh;
     background-repeat: no-repeat;
     background-position: bottom,center;
 }
